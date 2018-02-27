@@ -3,15 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.lmx.springhe</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.lmx</groupId>
+	<artifactId>springbatch3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>springbatch4</module>
-    </modules>
-    <packaging>pom</packaging>
+	<packaging>jar</packaging>
 
-	<name>springhe</name>
+	<name>springbatch3</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -30,9 +27,16 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-batch</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
