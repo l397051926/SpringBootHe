@@ -1,0 +1,8 @@
+1.增加定时器，利用定时器发布事件  定时器的定义方法是 添加一些注解 可以直接使用定时器
+2.增加Event事件
+    2.1事件自定义  继承ApplicationEvent 类
+    2.2监听自定义  实现ApplicationListener 接口
+    2.3使用注解  自动注入监听接口
+    2.4利用 ConfiguraApplicationConetext 启动事件
+
+   ps： 可以使用 手动添加监听 或 在配置文件中添加监听
